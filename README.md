@@ -70,6 +70,18 @@ Edit `config.json`:
 python3 monitor_game.py
 ```
 
+#### **Step 4: (Optional) Run the Script on Startup**
+To automatically start the game monitor when macOS boots up:
+1. Open **Terminal** and run:
+   ```bash
+   crontab -e
+   ```
+2. Add this line at the end to run the script at startup:
+   ```bash
+   @reboot /usr/bin/python3 /path/to/monitor_game.py
+   ```
+3. Save and exit.
+
 ---
 
 ## 📌 How It Works
@@ -114,4 +126,3 @@ python3 monitor_game.py
 
 ## 📌 License
 MIT License. Feel free to modify and use!
-
