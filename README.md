@@ -22,7 +22,7 @@ Game Approval App is a parental control tool that detects when a game starts on 
 ### 1️⃣ Set Up the Backend on Heroku
 #### **Step 1: Clone the Repository**
 ```bash
-git clone https://github.com/your-repo/game-approval-app.git
+git clone https://github.com/ctthanhthao/game-approval-app.git
 cd game-approval-app
 ```
 
