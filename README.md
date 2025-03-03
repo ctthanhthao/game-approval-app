@@ -102,6 +102,16 @@ To automatically start the game monitor when macOS boots up:
 
 ---
 
+## 📌 Scale down or scale up web application
+- stop a web app or if you're saving costs
+```bash
+heroku ps:scale web=0
+```
+- start web app
+```bash
+heroku ps:scale web=1
+```
+
 ## 📌 Troubleshooting
 **1️⃣ Game is not detected?**
 - Ensure the **correct game name** is in `config.json`.
